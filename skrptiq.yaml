@@ -1,0 +1,42 @@
+# --- Identity ---
+id: "d1e6f43c-9b25-4a8d-c3d7-5f1a0e4b2c69"
+name: "mcp-server-builder"
+display_name: "MCP Server Builder"
+description: "Design, build, validate, test, and document an MCP server from a service description"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/mcp-server-builder"
+
+# --- Discovery (Hub) ---
+category: "developer"
+tags:
+  - "mcp"
+  - "integration"
+  - "developer"
+  - "api"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions:
+    - "filesystem:read"
+    - "filesystem:write"
+  data_handling:
+    - "source-code"
+
+# --- Contents ---
+contents:
+  skills: 5
+  prompts: 5
+  workflows: 1
+  services: 1
+  assets: 1
+  total: 13
