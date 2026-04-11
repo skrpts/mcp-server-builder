@@ -3,7 +3,7 @@ id: "d1e6f43c-9b25-4a8d-c3d7-5f1a0e4b2c69"
 name: "mcp-server-builder"
 display_name: "MCP Server Builder"
 description: "Design, build, validate, test, and document an MCP server from a service description"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -31,6 +31,15 @@ requires:
     - "filesystem:write"
   data_handling:
     - "source-code"
+
+# --- Output ---
+output_step: "documentation-generation"
+composite_steps:
+  - "server-scaffolding"
+  - "tool-implementation"
+  - "protocol-validation"
+  - "integration-testing"
+  - "documentation-generation"
 
 # --- Contents ---
 contents:
