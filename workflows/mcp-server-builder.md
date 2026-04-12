@@ -22,6 +22,21 @@ connections:
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
+execution:
+  - skill: "server-scaffolding"
+    step_type: "generation"
+  - skill: "tool-implementation"
+    step_type: "content"
+    input_from: "server-scaffolding"
+  - skill: "protocol-validation"
+    step_type: "review"
+    input_from: "tool-implementation"
+  - skill: "integration-testing"
+    step_type: "review"
+    input_from: "tool-implementation"
+  - skill: "documentation-generation"
+    step_type: "generation"
+    input_from: "tool-implementation"
 ---
 
 ## Overview

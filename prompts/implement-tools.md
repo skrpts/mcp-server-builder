@@ -53,8 +53,11 @@ For each registered tool, produce a complete handler implementation:
 - Log important events (tool invocation, API calls, errors) for debugging
 - Keep each tool handler in its own file under `src/tools/`
 
+### Output
+
+Return the COMPLETE updated project — all tool handler files plus any modified files from the scaffold. Output each file with its path as a heading followed by the complete file content in a code block. Do not return partial implementations or just the changed sections.
+
 ## Formatting Rules
 
 - Use British English in all comments and documentation strings
-- Output each file with its path as a heading followed by the complete file content in a code block
 - Include a brief explanation before each file describing its role
