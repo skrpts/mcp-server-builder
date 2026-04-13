@@ -27,16 +27,13 @@ execution:
     step_type: "generation"
   - skill: "tool-implementation"
     step_type: "content"
-    input_from: "server-scaffolding"
+  - parallel:
+    - skill: "integration-testing"
+      step_type: "review"
+    - skill: "documentation-generation"
+      step_type: "generation"
   - skill: "protocol-validation"
     step_type: "review"
-    input_from: "tool-implementation"
-  - skill: "integration-testing"
-    step_type: "review"
-    input_from: "tool-implementation"
-  - skill: "documentation-generation"
-    step_type: "generation"
-    input_from: "tool-implementation"
 ---
 
 ## Overview
