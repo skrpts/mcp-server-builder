@@ -15,6 +15,8 @@ connections:
     type: uses
   - target: documentation-generation
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: mcp-server-template
@@ -22,13 +24,14 @@ connections:
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
-output_step: "documentation-generation"
+output_step: "language-polish"
 composite_steps:
   - "server-scaffolding"
   - "tool-implementation"
   - "protocol-validation"
   - "integration-testing"
   - "documentation-generation"
+  - "language-polish"
 execution:
   - skill: "server-scaffolding"
     step_type: "generation"
@@ -36,6 +39,8 @@ execution:
     step_type: "content"
   - skill: "documentation-generation"
     step_type: "generation"
+  - skill: "language-polish"
+    step_type: "content"
   - parallel:
     - skill: "protocol-validation"
       step_type: "review"
