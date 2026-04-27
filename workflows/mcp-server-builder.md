@@ -34,17 +34,23 @@ composite_steps:
   - "language-polish"
 execution:
   - skill: "server-scaffolding"
+    prompt: "scaffold-server"
     step_type: "generation"
   - skill: "tool-implementation"
+    prompt: "implement-tools"
     step_type: "content"
   - skill: "documentation-generation"
+    prompt: "generate-docs"
     step_type: "generation"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "protocol-validation"
+      prompt: "validate-protocol"
       step_type: "review"
     - skill: "integration-testing"
+      prompt: "test-server"
       step_type: "review"
 ---
 
