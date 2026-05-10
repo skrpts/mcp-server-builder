@@ -45,6 +45,9 @@ execution:
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
   - parallel:
     - skill: "protocol-validation"
       prompt: "validate-protocol"
