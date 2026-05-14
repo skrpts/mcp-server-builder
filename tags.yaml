@@ -1,0 +1,15 @@
+- id: "mcp"
+  title: "Mcp"
+  description: "Mcp workflows and tools"
+
+- id: "integration"
+  title: "Integration"
+  description: "Integration workflows and tools"
+
+- id: "developer"
+  title: "Developer"
+  description: "Developer workflows and tools"
+
+- id: "api"
+  title: "Api"
+  description: "Api workflows and tools"
