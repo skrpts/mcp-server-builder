@@ -3,7 +3,7 @@ id: "d1e6f43c-9b25-4a8d-c3d7-5f1a0e4b2c69"
 name: "mcp-server-builder"
 display_name: "MCP Server Builder"
 description: "Design, build, validate, test, and document an MCP server from a service description"
-version: "1.0.16"
+version: "1.0.18"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -17,10 +17,10 @@ repository: "https://github.com/skrpts/mcp-server-builder"
 # --- Discovery (Hub) ---
 category: "developer"
 tags:
-  - "mcp"
-  - "integration"
-  - "developer"
   - "api"
+  - "developer"
+  - "integration"
+  - "mcp"
 
 # --- Security & Access ---
 requires:
