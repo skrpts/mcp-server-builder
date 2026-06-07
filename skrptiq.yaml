@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "d1e6f43c-9b25-4a8d-c3d7-5f1a0e4b2c69"
+id: "467d4f83-a449-44e0-af62-232ea217b3ac"
 name: "mcp-server-builder"
 display_name: "MCP Server Builder"
 description: "Design, build, validate, test, and document an MCP server from a service description"
-version: "1.0.20"
+version: "1.0.21"
 engine: ">=0.1.0"
 
 # --- Attribution ---
