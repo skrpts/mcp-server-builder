@@ -36,15 +36,19 @@ execution:
   - skill: "server-scaffolding"
     prompt: "scaffold-server"
     step_type: "generation"
+    output: { name: "server_scaffold", type: "text" }
   - skill: "tool-implementation"
     prompt: "implement-tools"
     step_type: "content"
+    output: { name: "tool_implementation", type: "text" }
   - skill: "documentation-generation"
     prompt: "generate-docs"
     step_type: "generation"
+    output: { name: "documentation", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_docs", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -52,9 +56,11 @@ execution:
     - skill: "protocol-validation"
       prompt: "validate-protocol"
       step_type: "review"
+      output: { name: "protocol_verdict", type: "decision" }
     - skill: "integration-testing"
       prompt: "test-server"
       step_type: "review"
+      output: { name: "test_results", type: "text" }
 ---
 
 ## Overview
