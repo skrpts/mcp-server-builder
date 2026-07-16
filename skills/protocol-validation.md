@@ -17,7 +17,7 @@ Reviews MCP server code for protocol compliance. Validates JSON-RPC message form
 
 - After implementing tool handlers to verify protocol correctness
 - Before publishing an MCP server to catch compliance issues
-- When debugging unexpected behaviour from MCP clients
+- When debugging unexpected behavior from MCP clients
 
 ## Inputs
 

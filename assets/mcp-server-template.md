@@ -19,7 +19,7 @@ my-mcp-server/
 ├── tsconfig.json
 ├── .env.example
 ├── src/
-│   ├── index.ts          # Entry point — server initialisation and tool registration
+│   ├── index.ts          # Entry point — server initialization and tool registration
 │   ├── transport.ts      # Transport layer (stdio) with error handling
 │   ├── types.ts          # Shared type definitions
 │   └── tools/

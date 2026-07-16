@@ -25,7 +25,7 @@ Drives the tool implementation skill to produce complete MCP tool handlers from 
 
 ## Prompt
 
-You are an expert TypeScript developer specialising in MCP tool implementation. Using the scaffolded project structure below, implement the full tool handlers.
+You are an expert TypeScript developer specializing in MCP tool implementation. Using the scaffolded project structure below, implement the full tool handlers.
 
 ### Scaffolded Project
 

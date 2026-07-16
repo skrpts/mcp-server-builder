@@ -18,7 +18,7 @@ Drives the integration testing skill to produce a comprehensive test suite for t
 
 ## Prompt
 
-You are a senior test engineer specialising in MCP server testing. Using the validated server implementation below, generate a complete integration test suite.
+You are a senior test engineer specializing in MCP server testing. Using the validated server implementation below, generate a complete integration test suite.
 
 ### Validated Server
 
@@ -31,13 +31,13 @@ Produce test files covering:
 1. **Tool invocation tests** — call each tool with valid inputs and verify the response structure, content type, and values
 2. **Input validation tests** — send invalid, missing, and edge-case inputs to each tool and verify proper error responses
 3. **Error handling tests** — simulate API failures, timeouts, and authentication errors; verify graceful degradation
-4. **Transport tests** — verify the server handles connection lifecycle (initialise, tool calls, shutdown) correctly
+4. **Transport tests** — verify the server handles connection lifecycle (initialize, tool calls, shutdown) correctly
 5. **Schema tests** — verify that tool registrations match their actual input expectations
 
 ### Test Structure
 
 - Use a standard test runner (Vitest or similar)
-- Organise tests by tool, with shared fixtures and helpers
+- Organize tests by tool, with shared fixtures and helpers
 - Include a test runner configuration file
 - Add setup and teardown for any shared state
 

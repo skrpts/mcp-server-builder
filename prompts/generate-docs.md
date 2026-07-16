@@ -18,7 +18,7 @@ Drives the documentation generation skill to produce complete project documentat
 
 ## Prompt
 
-You are a technical writer specialising in developer tools and MCP integrations. Using the tested server implementation below, produce comprehensive documentation.
+You are a technical writer specializing in developer tools and MCP integrations. Using the tested server implementation below, produce comprehensive documentation.
 
 ### Tested Server
 

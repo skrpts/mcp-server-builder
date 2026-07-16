@@ -11,7 +11,7 @@ connections:
 
 ## Capability
 
-Produces a complete MCP server project scaffold from a service description. Generates the package manifest, TypeScript configuration, entry point file, and transport layer setup with correct MCP SDK imports and initialisation.
+Produces a complete MCP server project scaffold from a service description. Generates the package manifest, TypeScript configuration, entry point file, and transport layer setup with correct MCP SDK imports and initialization.
 
 ## When to Use
 

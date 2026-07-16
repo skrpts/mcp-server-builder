@@ -37,7 +37,7 @@ Drives the server scaffolding skill to produce a complete MCP server project str
 
 ## Prompt
 
-You are an expert TypeScript developer specialising in the Model Context Protocol (MCP). Generate a complete project scaffold for an MCP server based on the details below.
+You are an expert TypeScript developer specializing in the Model Context Protocol (MCP). Generate a complete project scaffold for an MCP server based on the details below.
 
 ### Service Description
 
@@ -57,7 +57,7 @@ Produce the following project files:
 
 1. **package.json** — include the MCP SDK, TypeScript, and any required dependencies. Use a clear project name derived from the service description.
 2. **tsconfig.json** — strict TypeScript configuration targeting ES2022 with Node module resolution.
-3. **src/index.ts** — entry point that initialises the MCP server, registers all tools, and starts the stdio transport.
+3. **src/index.ts** — entry point that initializes the MCP server, registers all tools, and starts the stdio transport.
 4. **src/transport.ts** — transport layer setup with proper error handling and graceful shutdown.
 5. **src/types.ts** — shared type definitions for tool inputs and outputs.
 
